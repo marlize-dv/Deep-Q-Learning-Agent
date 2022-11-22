@@ -58,8 +58,7 @@ Below are some visualizations of how the agent navigates through the map, that w
 On the left is an example of the agent winning the episode, and on the right is an example of the agent losing the episode.
 If the agent stands still it is because it is trying to make an illegal move, for example, out of the map or onto a hideout block.
 
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/91065960/203115879-396a0ce5-5725-40cc-93c6-e508fe5ec227.gif)
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/91065960/203115892-e8f3250e-32ac-42a5-b34b-1fbdb39a562c.gif)
+<img src="https://user-images.githubusercontent.com/91065960/203115879-396a0ce5-5725-40cc-93c6-e508fe5ec227.gif" width="400"> <img src="https://user-images.githubusercontent.com/91065960/203115892-e8f3250e-32ac-42a5-b34b-1fbdb39a562c.gif" width="400">
 
 Since the hiding agent is placed randomly on an open space in the map at the start of each episode and there are four "safe spaces", I am assuming that it is a bit hard to "learn" the environment.
 This is because perhaps the agent is placed next to a "safe spaces" and finds it quickly in one episode, and in the next episode, it is placed close to a different "safe space", but out of experience, the agent will want to return to the "safe space" that it found in the previous episode.
